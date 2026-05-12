@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051B42B86BD584FF5BEB80ED /* JstarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03ABBCD7F198DB1C45BDD0 /* JstarApp.swift */; };
+		2DD76AFB5E1464807A786570 /* JstarReportExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1851A3752A5BF56CFC8D488 /* JstarReportExtension.appex */; };
+		751AC6DDBF3E78114D4F6559 /* ReportContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD954DC1B5DA2D0C6614B1 /* ReportContext.swift */; };
+		9597D444A503AC2B5911F282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5678DD64E6657B79E719905D /* Foundation.framework */; };
+		9AD5E1D7D228656010554099 /* JstarReportExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014841012B97FA85DF3EB682 /* JstarReportExtension.swift */; };
+		B6E0D3FB8BD7BF77A3D3B5A1 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6405BABF296943121D9D62E /* ScreenTimeManager.swift */; };
+		DD4E311ED68DDD9B544231B4 /* ReportContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD954DC1B5DA2D0C6614B1 /* ReportContext.swift */; };
+		F6E3979EB5E675C8D18850B0 /* JstarActivityReportScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3382C27E63F2A05E6F4FA23 /* JstarActivityReportScene.swift */; };
+		FD54406680224D1889E60FB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01165E1E2620C0A104D759BD /* ContentView.swift */; };
+		FD7BE30684F3CD65A9B56709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5678DD64E6657B79E719905D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1EF324E0755074940DC2E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4F4F0A298B12A24B69A381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A525EFE33DBC02D804D089BC;
+			remoteInfo = JstarReportExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A59BE32B6BE6BD544FAC118 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2DD76AFB5E1464807A786570 /* JstarReportExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01165E1E2620C0A104D759BD /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		014841012B97FA85DF3EB682 /* JstarReportExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JstarReportExtension.swift; sourceTree = "<group>"; };
+		5678DD64E6657B79E719905D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A1851A3752A5BF56CFC8D488 /* JstarReportExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JstarReportExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC03ABBCD7F198DB1C45BDD0 /* JstarApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JstarApp.swift; sourceTree = "<group>"; };
+		C17A52770C152DB252FBAB8F /* Jstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6405BABF296943121D9D62E /* ScreenTimeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+		F3382C27E63F2A05E6F4FA23 /* JstarActivityReportScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JstarActivityReportScene.swift; sourceTree = "<group>"; };
+		F8FD954DC1B5DA2D0C6614B1 /* ReportContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReportContext.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE9AE2F8A0F62D73C7E1C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7BE30684F3CD65A9B56709 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FB175FF13B4690D2F966B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9597D444A503AC2B5911F282 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152FB48E8D1FFD5AEA74BA55 /* JstarShared */ = {
+			isa = PBXGroup;
+			children = (
+				F8FD954DC1B5DA2D0C6614B1 /* ReportContext.swift */,
+			);
+			name = JstarShared;
+			path = JstarShared;
+			sourceTree = "<group>";
+		};
+		1EE0F5D8AB43E76AF0FEDC08 /* Jstar */ = {
+			isa = PBXGroup;
+			children = (
+				AC03ABBCD7F198DB1C45BDD0 /* JstarApp.swift */,
+				01165E1E2620C0A104D759BD /* ContentView.swift */,
+				E6405BABF296943121D9D62E /* ScreenTimeManager.swift */,
+			);
+			name = Jstar;
+			path = Jstar;
+			sourceTree = "<group>";
+		};
+		279ED0F24099DA8C3E1D22A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5678DD64E6657B79E719905D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3635D3172EAD5293E543C755 = {
+			isa = PBXGroup;
+			children = (
+				900B9DF9DFBA93C5EA32D63E /* Products */,
+				3BFA0AE1ECE99BCAE9EC1B82 /* Frameworks */,
+				1EE0F5D8AB43E76AF0FEDC08 /* Jstar */,
+				152FB48E8D1FFD5AEA74BA55 /* JstarShared */,
+				BF207AC7FD2DD9DD0E073FB0 /* JstarReportExtension */,
+			);
+			sourceTree = "<group>";
+		};
+		3BFA0AE1ECE99BCAE9EC1B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279ED0F24099DA8C3E1D22A5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		900B9DF9DFBA93C5EA32D63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17A52770C152DB252FBAB8F /* Jstar.app */,
+				A1851A3752A5BF56CFC8D488 /* JstarReportExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF207AC7FD2DD9DD0E073FB0 /* JstarReportExtension */ = {
+			isa = PBXGroup;
+			children = (
+				014841012B97FA85DF3EB682 /* JstarReportExtension.swift */,
+				F3382C27E63F2A05E6F4FA23 /* JstarActivityReportScene.swift */,
+			);
+			name = JstarReportExtension;
+			path = JstarReportExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A525EFE33DBC02D804D089BC /* JstarReportExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B9D6A9F3C3ACD67C46C68C /* Build configuration list for PBXNativeTarget "JstarReportExtension" */;
+			buildPhases = (
+				C4882CFA88FD4C8C9C355073 /* Sources */,
+				1CE9AE2F8A0F62D73C7E1C64 /* Frameworks */,
+				813E222FF6B34A0A24950EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JstarReportExtension;
+			productName = JstarReportExtension;
+			productReference = A1851A3752A5BF56CFC8D488 /* JstarReportExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D4B47917C3A56A3D4A2FBEA8 /* Jstar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A270654E16AABD192EC959DD /* Build configuration list for PBXNativeTarget "Jstar" */;
+			buildPhases = (
+				82CA8BF9F3A0011447D5BFA4 /* Sources */,
+				E4FB175FF13B4690D2F966B5 /* Frameworks */,
+				B190D4959BD43E0F5DA1129F /* Resources */,
+				2A59BE32B6BE6BD544FAC118 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B6AD138863293AB68541E2 /* PBXTargetDependency */,
+			);
+			name = Jstar;
+			productName = Jstar;
+			productReference = C17A52770C152DB252FBAB8F /* Jstar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4F4F0A298B12A24B69A381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 44F110396D67F5F494D10FCD /* Build configuration list for PBXProject "Jstar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3635D3172EAD5293E543C755;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 900B9DF9DFBA93C5EA32D63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B47917C3A56A3D4A2FBEA8 /* Jstar */,
+				A525EFE33DBC02D804D089BC /* JstarReportExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		813E222FF6B34A0A24950EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B190D4959BD43E0F5DA1129F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CA8BF9F3A0011447D5BFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051B42B86BD584FF5BEB80ED /* JstarApp.swift in Sources */,
+				FD54406680224D1889E60FB2 /* ContentView.swift in Sources */,
+				B6E0D3FB8BD7BF77A3D3B5A1 /* ScreenTimeManager.swift in Sources */,
+				751AC6DDBF3E78114D4F6559 /* ReportContext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4882CFA88FD4C8C9C355073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD5E1D7D228656010554099 /* JstarReportExtension.swift in Sources */,
+				F6E3979EB5E675C8D18850B0 /* JstarActivityReportScene.swift in Sources */,
+				DD4E311ED68DDD9B544231B4 /* ReportContext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B6AD138863293AB68541E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JstarReportExtension;
+			target = A525EFE33DBC02D804D089BC /* JstarReportExtension */;
+			targetProxy = B1EF324E0755074940DC2E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		102D78185B9A8AFE0D902628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = JstarReportExtension/JstarReportExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JstarReportExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaswinderrathore101.Jstar.ReportExtension;
+				PRODUCT_NAME = JstarReportExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839E5F648C6D90B0D7C54FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9AA6A6A8F7588DF6CC38CC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9D978C2977DA05E9C5B2CCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Jstar/Jstar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Jstar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaswinderrathore101.Jstar;
+				PRODUCT_NAME = Jstar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C979D9488A3B31C0E4968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = JstarReportExtension/JstarReportExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = JstarReportExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaswinderrathore101.Jstar.ReportExtension;
+				PRODUCT_NAME = JstarReportExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E01C9C748BCE0B2E1CE12D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Jstar/Jstar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Jstar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaswinderrathore101.Jstar;
+				PRODUCT_NAME = Jstar;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44F110396D67F5F494D10FCD /* Build configuration list for PBXProject "Jstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839E5F648C6D90B0D7C54FD3 /* Debug */,
+				9AA6A6A8F7588DF6CC38CC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B9D6A9F3C3ACD67C46C68C /* Build configuration list for PBXNativeTarget "JstarReportExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102D78185B9A8AFE0D902628 /* Release */,
+				B1C979D9488A3B31C0E4968A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A270654E16AABD192EC959DD /* Build configuration list for PBXNativeTarget "Jstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D978C2977DA05E9C5B2CCEB /* Release */,
+				E01C9C748BCE0B2E1CE12D41 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB4F4F0A298B12A24B69A381 /* Project object */;
+}
