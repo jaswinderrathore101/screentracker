@@ -17,10 +17,10 @@ Jstar is a minimal SwiftUI Screen Time app that uses Apple Screen Time framework
 
 ## Project structure
 
-- `/home/runner/work/screentracker/screentracker/Jstar.xcodeproj` — Xcode project
-- `/home/runner/work/screentracker/screentracker/Jstar` — main iOS app target
-- `/home/runner/work/screentracker/screentracker/JstarReportExtension` — Device Activity report extension target
-- `/home/runner/work/screentracker/screentracker/JstarShared` — shared report context constants
+- `./Jstar.xcodeproj` — Xcode project
+- `./Jstar` — main iOS app target
+- `./JstarReportExtension` — Device Activity report extension target
+- `./JstarShared` — shared report context constants
 
 ## Requirements
 
@@ -30,7 +30,7 @@ Jstar is a minimal SwiftUI Screen Time app that uses Apple Screen Time framework
 
 ## Run instructions
 
-1. Open `/home/runner/work/screentracker/screentracker/Jstar.xcodeproj` in Xcode.
+1. Open `./Jstar.xcodeproj` in Xcode.
 2. Select the **Jstar** app target.
 3. Set your Team + unique bundle identifier(s) for:
    - `com.jaswinderrathore101.Jstar`
