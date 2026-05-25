@@ -21,17 +21,17 @@ This repository currently implements **Step 1 (Foundation)** of the MVP specific
 
 Two environment templates are provided:
 
-- `/home/runner/work/screentracker/screentracker/.env.development.example`
-- `/home/runner/work/screentracker/screentracker/.env.production.example`
+- `.env.development.example`
+- `.env.production.example`
 
 Create real environment files from these templates:
 
-- `/home/runner/work/screentracker/screentracker/.env.development`
-- `/home/runner/work/screentracker/screentracker/.env.production`
+- `.env.development`
+- `.env.production`
 
 The app uses Vite mode-based loading (`npm run dev` for development, `npm run build` for production build).
 
-Firebase project aliases are separated in `/home/runner/work/screentracker/screentracker/.firebaserc`.
+Firebase project aliases are separated in `.firebaserc`.
 
 ## Local run
 
